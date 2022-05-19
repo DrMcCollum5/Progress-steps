@@ -33,4 +33,8 @@ function update() {
             circle.classList.remove('active')
         }
     })
+
+    const active = document.querySelectorAll('.active')
+
+    console.log(actives.length, circles.length)
   }
